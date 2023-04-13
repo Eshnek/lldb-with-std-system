@@ -1,0 +1,14 @@
+InlayHints:
+  Enabled: Yes
+  ParameterNames: No
+  DeducedTypes: No
+
+Diagnostics:
+  UnusedIncludes: Strict
+
+CompileFlags:
+  CompilationDatabase: build
+  Remove:
+  - '-std=gnu++23'
+  Add:
+  - '-std=c++2b'
